@@ -22,7 +22,7 @@
     "url": "git+https://github.com/yourusername/event-notification-service.git"
   },
   "keywords": ["notification", "service", "real-time", "email", "sms"],
-  "author": "New Author Name",
+  "author": "Updated Author Name", 
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yourusername/event-notification-service/issues"
