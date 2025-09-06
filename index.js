@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/event-notification', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/event-notification', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
